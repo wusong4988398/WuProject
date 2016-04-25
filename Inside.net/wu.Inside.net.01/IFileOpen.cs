@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace wu.Inside.net._01
 {
-    public class Class1
-    {
-    }
+   public  interface IFileOpen
+   {
+       void Open();
+   }
 }
