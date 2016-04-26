@@ -40,7 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DocFile.cs" />
+    <Compile Include="Files.cs" />
+    <Compile Include="FileType.cs" />
+    <Compile Include="IFileOpen.cs" />
+    <Compile Include="ImageFile.cs" />
+    <Compile Include="LoadManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WordFile.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
